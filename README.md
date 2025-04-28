@@ -44,4 +44,5 @@ A Prolog interpreter with limited syntax implemented in Haskell, designed to loa
 ```bash
 git clone https://github.com/your-username/prolog-interpreter.git
 cd prolog-interpreter
-stack build
+cabal build
+cabal run
